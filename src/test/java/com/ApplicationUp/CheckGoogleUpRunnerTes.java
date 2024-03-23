@@ -1,19 +1,18 @@
-package com.Get_DatatableStepDefination;
+package com.ApplicationUp;
 
 import org.junit.runner.RunWith;
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features= {"src/test/resources/com/MyDataTable/"},
-		glue={"com.Get_DatatableStepDefination"},
+		features= {"src/test/resources/com/ApplicationUp/"},
+		glue={"com.ApplicationUp"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report2.json",
+				"json:target/cucumber-report21.json",
 		}
 		)
-public class GETSDRunnerFile {
+public class CheckGoogleUpRunnerTes {
 
 }

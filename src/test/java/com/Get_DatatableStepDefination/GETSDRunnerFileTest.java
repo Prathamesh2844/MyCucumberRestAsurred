@@ -1,4 +1,5 @@
-package com.post_request_SD;
+package com.Get_DatatableStepDefination;
+
 import org.junit.runner.RunWith;
 
 import io.cucumber.junit.Cucumber;
@@ -6,13 +7,13 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features= {"src/test/resources/com/post_request_FF/"},
-		glue={"com.post_request_SD"},
+		features= {"src/test/resources/com/MyDataTable/"},
+		glue={"com.Get_DatatableStepDefination"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report2.json",
+				"json:target/cucumber-report22.json",
 		}
 		)
-public class MyGetRunnerFile {
+public class GETSDRunnerFileTest {
 
 }
